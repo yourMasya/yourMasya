@@ -8,7 +8,7 @@ class Expertise(Me):
   name: str = 'Maxim Matvejev'
   bachelor: str = 'HSE Fundamental and Computational Linguistics'
   minor: str = 'Intellectual Data Analysis',
-  thesis: str = 'Comparison of Rule-based and Deep Learning Disambiguation Models on Bi-aspectual Verbs Corpus'
+  thesis: str = 'Comparison of Rule-based and Deep Learning Disambiguation Models on Bi-aspectual Verbs Data'
 
   languages: Dict[str, str] = field(default_factory=lambda: {
     'Russian': 'Native',
