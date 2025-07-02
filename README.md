@@ -36,25 +36,3 @@ class Expertise(Me):
       'telegram': '@your_masya',
       'email': 'mmatvs@mail.ru'
     })
-
-thesis: Dict[str, str | List[str]] = field(default_factory=lambda: {
-    'Title': '''Comparison of Rule-based and 
-Deep Learning Models in the Context of 
-Homonymy Resolution of 
-Russian Bi-aspectual Verbs''',
-    'Data': 'Powerful web-parser for context and target token markup collection from Russian National Corpus',
-    'Deep Learning': [
-      'Bert-like model from scratch', 
-      'Morpheme-based tokenization', 
-      'Multi-Head Attention', 
-      'Priority Weighting & Bias', 
-      'Focal Loss', 
-      'SwiGLU activation'
-    ],
-    'Rule-based': [
-      'Contextual rules for homonymy resolution were implemented',
-      'The result obtained is comparable in quality to BERT',
-      'O(n) complexity',
-      'Found errors in Russian National Corpus mark-up and data-driven limitations'
-    ]
-  })
