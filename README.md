@@ -1,6 +1,6 @@
 # About me
 
-``from dataclasses import dataclass, field
+`from dataclasses import dataclass, field
 from typing import Dict, List
 
 @dataclass
@@ -53,4 +53,4 @@ class Expertise(Me):
     default_factory=lambda: {
       'telegram': '@your_masya',
       'email': 'mmatvs@mail.ru'
-    })``
+    })`
