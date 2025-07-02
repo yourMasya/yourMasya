@@ -54,4 +54,3 @@ class Expertise(Me):
       'telegram': '@your_masya',
       'email': 'mmatvs@mail.ru'
     })
-`
