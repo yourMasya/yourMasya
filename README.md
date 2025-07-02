@@ -38,7 +38,10 @@ class Expertise(Me):
     })
 
 thesis: Dict[str, str | List[str]] = field(default_factory=lambda: {
-    'Title': 'Comparison of Rule-based and Deep Learning Models in the Context of Homonymy Resolution of Russian Bi-aspectual Verbs',
+    'Title': '''Comparison of Rule-based and 
+Deep Learning Models in the Context of 
+Homonymy Resolution of 
+Russian Bi-aspectual Verbs''',
     'Data': 'Powerful web-parser for context and target token markup collection from Russian National Corpus',
     'Deep Learning': [
       'Bert-like model from scratch', 
