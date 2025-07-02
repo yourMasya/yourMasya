@@ -1,6 +1,6 @@
 # About me
 
-<code>from dataclasses import dataclass, field
+from dataclasses import dataclass, field
 from typing import Dict, List
 
 @dataclass
@@ -54,4 +54,4 @@ class Expertise(Me):
       'telegram': '@your_masya',
       'email': 'mmatvs@mail.ru'
     })
-</code>
+``
