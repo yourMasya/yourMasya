@@ -22,8 +22,8 @@ class Expertise(Me):
   technologies: Dict[str, List[str]] = field(
     default_factory=lambda: {
       'nlp': ['spacy','pymorphy2', 'pymystem3', 'nltk', 're', 'natasha', 'gensim', 'stanza'],
-      'ml': ['scikit-learn', 'numpy'],
-      'dl': ['pytorch', 'keras', 'transformers'],
+      'ml': ['scikit-learn', 'catboost', 'xgboost', 'lightgbm', 'numpy'],
+      'dl': ['pytorch', 'tensorflow', 'transformers'],
       'analytics': ['pandas'],
       'visualization': ['seaborn', 'matplotlib', 'plotly'],
       'scraping': ['bs4', 'selenium'],
