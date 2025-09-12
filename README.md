@@ -21,14 +21,16 @@ class Expertise(Me):
   
   technologies: Dict[str, List[str]] = field(
     default_factory=lambda: {
-      'nlp': ['spacy','pymorphy2', 'pymystem3', 'nltk', 're', 'natasha', 'gensim', 'stanza'],
+      'nlp': ['spacy','pymorphy3', 'pymystem3', 'nltk', 're', 'natasha', 'gensim', 'stanza'],
+      'llm': ['langchain', 'langsmith', 'openaiapi'],
       'ml': ['scikit-learn', 'catboost', 'xgboost', 'lightgbm', 'numpy'],
       'dl': ['pytorch', 'tensorflow', 'transformers'],
       'analytics': ['pandas'],
       'visualization': ['seaborn', 'matplotlib', 'plotly'],
       'scraping': ['bs4', 'selenium'],
-      'databases': ['postgresql'],
-      'os': ['windows']
+      'databases': ['postgresql', 'chromadb', 'mongodb', 'elasticsearch'],
+      'os': ['windows'],
+      'other': ['fastapi', 'w&b', 'torchaudio', 'torchvision']
     })
   
   cv: str = 'https://docs.google.com/document/d/1SNaiJOuf3XrUo_zUvtTL52_Mir364S6L7jR4UsZt3tI/edit?usp=sharing'
