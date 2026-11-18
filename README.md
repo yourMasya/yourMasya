@@ -1,7 +1,7 @@
 # About me
 
 ```
-class Expertise(Me):
+class About(Me):
   name: str = 'Maxim Matvejev'
   bachelor: str = 'HSE Fundamental and Computational Linguistics'
   minor: str = 'Intellectual Data Analysis',
